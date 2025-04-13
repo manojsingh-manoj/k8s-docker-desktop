@@ -27,7 +27,7 @@ EOF
 
 ## Step 2: Create a Role & RoleBinding
 
-```bash
+
 cat <<EOF | kubectl apply -f -
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
