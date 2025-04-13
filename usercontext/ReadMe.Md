@@ -1,10 +1,10 @@
-# 🔐 Kubernetes Namespace Access with ServiceAccount & Custom Context
+# Kubernetes Namespace Access with ServiceAccount & Custom Context
 
 This guide shows how to create a Kubernetes ServiceAccount with limited access to a specific namespace, generate a token for it, and configure a `kubeconfig` context for user-like access.
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
 - Kubernetes cluster (e.g., Docker Desktop, Kind, etc.)
 - `kubectl` installed
