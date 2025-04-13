@@ -22,7 +22,7 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: myuser
-  namespace: my-namespace
+  namespace: usercontext-example
 EOF
 
 ## Step 2: Create a Role & RoleBinding
