@@ -83,5 +83,7 @@ kubectl config set-context myuser-context \
 kubectl config use-context myuser-context
 
 ## CleanUp
+kubectl config get-contexts
 kubectl config delete-context myuser-context
+kubectl config get-users
 kubectl config delete-user myuser
