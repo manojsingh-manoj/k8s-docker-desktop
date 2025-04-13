@@ -1,4 +1,4 @@
-# Kubernetes Namespace Access with ServiceAccount & Custom Context
+# Create User and User Context in Docker Desktop
 
 This guide shows how to create a user context in kubernetes runnning in docker desktop. Here we are creating kubernetes ServiceAccount with limited access to a specific namespace, generate a token for it, and configure a `kubeconfig` context for user-like access.
 
